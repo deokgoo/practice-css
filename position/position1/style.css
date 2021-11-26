@@ -1,0 +1,79 @@
+:root {
+  --color-blue: #2860E1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4;
+}
+
+.card {
+  width: 240px;
+  padding: 8px 12px;
+  border: 1px solid #E5EAEF;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.card__profile,
+.card__name {
+  float: left;
+}
+
+.card__profile {
+  position: relative;
+  float: left;
+  margin-right: 16px;
+}
+
+.card__name {padding: 8px 0;}
+
+.card__profile__img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.card__profile__status {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  bottom:-2px;
+  right: -2px;
+  border-radius: 50%;
+  background-color: #21D891;
+  border: 2px solid #fff;
+  box-sizing: content-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+

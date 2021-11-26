@@ -1,0 +1,37 @@
+:root {
+  --color-blue: #2860E1;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #8492a6;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.tab-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.tab-menu::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.tab-menu-item {
+  float: left;
+  margin-right: 16px;
+  padding: 16px 20px;
+}
+
+.tab-menu-item.active {
+  border-bottom: 2px solid var(--color-blue);
+}
+
+.tab-menu-item.active>a {
+  color: var(--color-blue);
+}

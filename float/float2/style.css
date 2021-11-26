@@ -1,0 +1,66 @@
+:root {
+  --color-blue: #2860E1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4;
+}
+
+.card {
+  max-width: 560px;
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+.card::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.card__profile {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+  border-radius: 50%;
+  float: left;
+}
+
+.card__content {
+  float: left;
+}
+
+.card__content h1 {
+  margin-bottom: 4px;
+}
+
+.card__content strong {
+  margin-bottom: 12px;
+  display: block;
+}
+
