@@ -1,0 +1,93 @@
+:root {
+  --color-blue: #2860e1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: black;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d858f;
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 22px;
+  color: #2860e1;
+  line-height: 1.0909090909;
+}
+
+strong span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #525d69;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+}
+
+.sr-only {
+  display: none;
+}
+
+.tab-menu {
+  display: flex;
+  padding-left: 0;
+  background-color: white;
+  list-style-type: none;
+}
+
+.tab-menu-item {
+  margin-right: 16px;
+}
+
+.tab-menu-item.active {
+  border-bottom: 2px solid blue;
+}
+
+.tab-menu-item.active a {
+  font-weight: 500;
+  color: #2860e1;
+}
+
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+}

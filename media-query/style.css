@@ -1,0 +1,117 @@
+:root {
+  --color-blue: #2860e1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4;
+}
+
+.banner {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC82C;
+}
+
+.banner-title a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  color: #1F2D3D;
+}
+
+.landing {
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("./assets/img-bg.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.landing-title,
+.landing strong {
+  font-size: 32px;
+  text-align: right;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.landing strong {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.landing h1 {
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.landing-link {
+  width: 160px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #00000080;
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    height: 80px;
+    top: 0;
+  }
+
+  .landing {
+    align-items: center;
+  }
+
+  .landing-title,
+  .landing strong {
+    font-size: 50px;
+    text-align: center;
+  }
+}
